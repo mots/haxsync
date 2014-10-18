@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="FuzzinessChoices">
+    <item>Keine - nur exakte Übereinstimmungen</item>
+    <item>Schwach</item>
+    <item>Mittel</item>
+    <item>Stark</item>
+    <item>Sehr stark - könnte zu vielen ungewünschten Kontakten führen</item>
+  </string-array>
+  <string-array name="FuzzinessValues">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
+      <string-array name="EventChoices">
+        <item >Zugesagt</item>
+        <item >Vielleicht</item>
+        <item >Abgesagt</item>
+        <item >Einladung nicht beantwortet</item>
+    </string-array>
+    <string-array name="EventValues">
+        <item >attending</item>
+        <item >unsure</item>
+        <item >declined</item>
+        <item >not_replied</item>
+    </string-array>
+    <string-array name="ContactsChoices">
+        <item>Nicht synchronisieren</item>
+        <item>Nur bereits vorhandene</item>
+        <item>Alle importieren</item>
+    </string-array>
+</resources>

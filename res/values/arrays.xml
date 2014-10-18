@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FuzzinessChoices">
+        <item >None - Only sync exact matches</item>
+        <item >Slight</item>
+        <item >Medium</item>
+        <item >Strong</item>
+        <item >Very Strong - May sync lots of unwanted contacts</item>
+    </string-array>
+    <string-array name="FuzzinessValues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+    <string-array name="EventChoices">
+        <item >Going</item>
+        <item >Maybe</item>
+        <item >Declined</item>
+        <item >Not responded</item>
+    </string-array>
+    <string-array name="EventValues">
+        <item >attending</item>
+        <item >unsure</item>
+        <item >declined</item>
+        <item >not_replied</item>
+    </string-array>
+    <string-array name="ContactsChoices">
+        <item>None</item>
+        <item>Existing contacts only</item>
+        <item>Import All</item>
+    </string-array>
+</resources>

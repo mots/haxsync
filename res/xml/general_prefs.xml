@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="General Settings" >
+
+    <PreferenceCategory android:title="@string/sync_options" >
+        <PreferenceScreen android:title="@string/sync_freq" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="org.mots.haxsync.activities.SyncPopup"
+                android:targetPackage="org.mots.haxsync" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/resource_saving" >
+        <CheckBoxPreference
+            android:key="wifi_only"
+            android:summary="@string/wifi_only_summary"
+            android:title="@string/wifi_only" />
+        <!--
+            <CheckBoxPreference
+            android:summary="Only sync if the phone is plugged into a power outlet."
+            android:title="Plugged in only" />
+        -->
+        <CheckBoxPreference android:key="charging_only" android:title="@string/charging_only" />
+    </PreferenceCategory>
+    <CheckBoxPreference android:title="Debug Logging" android:key="debug_logging"/>
+
+</PreferenceScreen>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Contact Settings">
+
+    <PreferenceCategory android:title="@string/contact_sync" android:key="contact_sync">
+
+        <PreferenceScreen
+            android:summary="@string/contact_manager_description"
+            android:title="@string/contact_manager">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="org.mots.haxsync.activities.ContactListActivity"
+                android:targetPackage="org.mots.haxsync" />
+        </PreferenceScreen>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="phone_only"
+            android:summary="@string/phone_only_summary"
+            android:title="@string/phone_only" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/FuzzinessChoices"
+            android:entryValues="@array/FuzzinessValues"
+            android:key="fuzziness"
+            android:summary="@string/fuzziness_summary"
+            android:title="@string/fuzziness" />
+
+        <!--         <PreferenceScreen -->
+        <!--             android:dependency="phone_only" -->
+        <!--             android:summary="@string/additional_friends_summary" -->
+        <!--             android:title="@string/additional_friends" > -->
+        <!--             <intent -->
+        <!--                 android:action="android.intent.action.VIEW" -->
+        <!--                 android:targetClass="org.mots.haxsync.activities.FriendPicker" -->
+        <!--                 android:targetPackage="org.mots.haxsync" /> -->
+        <!--         </PreferenceScreen> -->
+        <CheckBoxPreference
+            android:summary="@string/sync_self_summary"
+            android:key="sync_self"
+            android:title="@string/sync_self"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:summary="@string/add_me_to_friends_summary"
+            android:key="add_me_to_friends"
+            android:title="@string/add_me_to_friends"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+        android:summary="@string/ignore_middle_names_summary"
+        android:key="ignore_middle_names"
+        android:title="@string/ignore_middle_names"
+        android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="sync_location"
+            android:title="@string/sync_location"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="@string/sync_birthdays"
+            android:key="sync_contact_birthday"
+            android:summary="@string/sync_birthday_contact_description"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/sync_facebook_email"
+            android:key="sync_facebook_email"
+            android:summary="@string/sync_facebook_email_description" />
+        <PreferenceScreen
+            android:title="@string/google_backup"
+            android:summary="@string/google_backup_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="org.mots.haxsync.activities.GoogleBackup"
+                android:targetPackage="org.mots.haxsync" />
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/status_updates" android:key="status_updates">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sync_status"
+            android:title="@string/sync_status" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="sync_status"
+            android:key="status_new"
+            android:summary="@string/status_new_summary"
+            android:title="@string/status_new" />
+        <CheckBoxPreference
+            android:summary="@string/timeline_all_summary"
+            android:key="timeline_all"
+            android:title="@string/timeline_all"
+            android:dependency="status_new" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/contact_images">
+        <CheckBoxPreference
+            android:key="update_google_photos"
+            android:title="@string/update_google_photos"
+            android:summary="@string/update_google_photos_description" />
+<!--        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="crop_square"
+            android:title="@string/crop_square" />
+        <CheckBoxPreference
+            android:key="face_detect"
+            android:title="@string/face_detect"
+            android:dependency="crop_square"
+            android:defaultValue="true"
+            android:summary="@string/crop_square_summary" />-->
+        <CheckBoxPreference
+            android:key="image_primary"
+            android:title="@string/image_primary"
+            android:defaultValue="true"
+            android:summary="@string/image_primary_description" />
+        <CheckBoxPreference
+            android:key="force_dl"
+            android:title="@string/force_dl"
+            android:summary="@string/force_dl_summary" />
+        <!--     <CheckBoxPreference android:title="root_enabled" android:key="root_enabled"/> -->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

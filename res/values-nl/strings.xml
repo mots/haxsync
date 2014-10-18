@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">HaxSync</string>
+    <string name="ACCOUNT_TYPE">org.mots.haxsync.account</string>
+    <string name="general_settings">Algemene instellingen</string>
+    <string name="general_summary">Facebook-applicatie, synchroniseerfrequentie, batterij- en databesparing</string>
+    <string name="contact_settings">Contactinstellingen</string>
+    <string name="contact_summary">Contactkoppelingen, statusupdates, bijsnijden van afbeeldingen</string>
+    <string name="calendar_settings">Agenda-instellingen</string>
+    <string name="calendar_summary">Evenementsynchronisatie</string>
+    <string name="sync_events">Evenementen synchroniseren</string>
+    <string name="sync_events_summary">Indien aangevinkt worden evenementen waarbij u aanwezig bent naar een aparte agenda gesynchroniseerd.</string>
+    <string name="contact_sync">Contactsynchronisatie</string>
+    <string name="phone_only">Alleen bestaande contacten</string>
+    <string name="phone_only_summary">Synchroniseer alleen contacten die al op uw apparaat aanwezig zijn.</string>
+    <string name="fuzziness">Mate van afwijking</string>
+    <string name="fuzziness_summary">Nuttig voor contacten waarbij de Facebook-naam afwijkt van de naam op uw apparaat.</string>
+    <string name="additional_friends">Extra vrienden om te synchroniseren</string>
+    <string name="additional_friends_summary">Deze vrienden zullen worden gesynchroniseerd, zelfs als ze niet overeenkomen met contacten op uw apparaat.</string>
+    <string name="status_updates">Statusupdates</string>
+    <string name="sync_status">Statusupdates synchroniseren</string>
+    <string name="status_new">Nieuwe API gebriken</string>
+    <string name="status_new_summary">Sterk aanbevolen. Android 4.0.3 of hoger vereist.</string>
+    <string name="contact_images">Contactafbeeldingen</string>
+    <string name="crop_square">Bijsnijden tot vierkant</string>
+    <string name="crop_square_summary">Gebruikt gezichtsherkenning om het optimale oppervlak te bepalen.</string>
+    <string name="sync_options">Synchroniseeropties</string>
+    <string name="sync_freq">Synchroniseerfrequentie</string>
+    <string name="resource_saving">Batterij- en databesparing</string>
+    <string name="wifi_only_summary">Synchroniseer alleen indien verbonden met WiFi-netwerk.</string>
+    <string name="wifi_only">Alleen over WiFi</string>
+    <string name="charging_only">Alleen tijdens opladen</string>
+    <string name="charging_only_summary"></string>
+    <string name="getting_friends">Facebook-vrienden ophalen…</string>
+    <string name="sync_every">Synchroniseer elke</string>
+    <string name="days">Dagen</string>
+    <string name="hours">Uur</string>
+    <string name="minutes">Minuten</string>
+    <string name="birthday">%1$s\'s verjaardag</string>
+    <string name="preferences">Geavanceerde instellingen</string>
+    <string name="about">Over</string>
+    <string name="birthday_cal">HaxSync-verjaardagen</string>
+    <string name="event_cal">HaxSync-evenementen</string>
+    <string name="event_sync">Evenementsynchronisatie</string>
+    <string name="birthday_sync">Verjaardagssynchronisatie</string>
+    <string name="calendar_color">Agendakleur</string>
+    <string name="sync_birthdays">Verjaardagen synchroniseren</string>
+    <string name="sync_self">Synchroniseer \"Ik\" Contact</string>
+    <string name="sync_self_summary">Synchroniseert uw eigen Facebook-info met Android\'s \"Ik\" Contact.</string>
+    <string name="timeline_all">Volledige tijdlijn tonen</string>
+    <string name="timeline_all_summary">Toont de volledige tijdlijn van een contact, inclusief posts van andere gebruikers.</string>
+    <string name="thanks">
+<![CDATA[ 	    <b><a href="http://www.c99.org/">Sam Steele</a></b><br /><i>Sync Adapter sample code, licensed under the Apache Public License</i><br />
+ 	    <b><a href="http://www.apache.org/">Apache Software Foundation</a></b><br /><i>commons.lang, licensed under the Apache Public License</i><br />
+ 	    <b><a href="https://twitter.com/snalty/">Sam Nalty</a></b><br /><i>Wizard Design</i><br />
+ 	    <b><a href="http://originell.org/">Luis Nell</a></b><br /><i>\"Comment\" and \"Like\" icons</i><br />
+ 	    <b>Sergey Margaritov & Daniel Nilsson</b><br /><i>ColorPickerPreference, licensed under the Apache Public License</i><br />
+ 	    <b>Lorenzo Villani and the Android Team</b><br /><i>Image Cropping Activity, licensed under the Apache Public License</i><br />
+ 	    <b>Alex Yanchenko</b><br /><i>MultiSelectListPreference, licensed under the Apache Public License</i><br />
+ 	    <b>JJ Ford</b><br /><i>Shell.java, licensed under the MIT License</i><br />
+ 	    <b>Daniel Pfeller</b><br /> <i>Testing</i><br />
+ 	    <b>Lukas Lehner</b><br /> <i>Testing</i><br />
+ 	    <b><a href="http://mpranj.limun.org/">Mihael Pranjić</b><br /><i>Testing, Croatian Translation, Hosting</i><br />
+ 	    <b>Marin Bilić</b><br /> <i>Croatian Translation</i><br />
+ 	    <b>Lukács Attila</b><br /><i>Hungarian Translation</i><br />
+ 	    <b>Yasin Yıldırım</b><br /><i>Turkish Translation</i><br />
+ 	    <b>Per Kristian Sørpebøl</b><br /><i>Norwegian Translation</i><br />
+ 	    <b>Pablo Alcayaga</b><br /><i>Spanish Translation</i><br />
+ 	    <b>Adam Salač</b><br /><i>Czech Translation</i><br />
+	    <b>João Rocha</b><br /><i>Portuguese Translation</i><br />
+	    <b>Giang Nguyễn Hoàng</b><br /><i>Vietnamese Translation</i><br />
+ 	    <b>Luigi Apicella</b><br /><i>Italian Translation</i><br />
+        <b>Jasper Makkinje</b><br /><i>Dutch Translation</i><br />
+ 	     	    ]]>
+    </string>
+    <string name="google_backup">Contactkoppelingen backuppen</string>
+    <string name="google_backup_summary">Voegt HTCData-tags toe aan uw Google-contacten. Nuttig wanneer u van ROM wisselt/uw telefoongegevens wist.</string>
+    <string name="google_backup_warning">Dit zal het \"Opmerkingen\"-veld in uw Google-contacten overschrijven. Weet u zeker dat u wilt doorgaan?</string>
+    <string name="phone_only_cal">Alleen telefooncontacten</string>
+    <string name="phone_only_cal_summary">Alleen verjaardagsevenementen aanmaken voor contacten die u ook op uw telefoon heeft.</string>
+    <string name="face_detect">Gezichtsherkenning gebruiken</string>
+    <string name="force_dl">Opnieuw downloaden forceren</string>
+    <string name="force_dl_summary">Forceert het opnieuw downloaden van alle contactafbeeldingen bij de volgende synchronisatie.</string>
+    <string name="sync_location">Adressen synchroniseren</string>
+    <string name="google_select">Selecteer a.u.b. een Google-account</string>
+    <string name="token_notification_title">Ongeldige respons</string>
+    <string name="token_notification_ticker">Ongeldige respons van Facebook</string>
+    <string name="token_notification_description">Aanraken om toestemming te geven</string>
+    <string name="event_status">Evenementen om te synchroniseren</string>
+    <string name="event_status_description">Alleen evenementen met geselecteerde RSVP-statussen synchroniseren.</string>
+    <string name="reminders">Herinneringen toevoegen</string>
+    <string name="remind_me">Herinner mij</string>
+    <string name="remind_before">voor het evenement.</string>
+    <string name="reminder_time">Herinneringstijd</string>
+    <string name="jb_warning_ticker">Jelly Bean-workaround vereist!</string>
+    <string name="jb_warning_title">Jelly Bean-workaround</string>
+    <string name="jb_warning_description">Installeer dit om te voorkomen dat data bij herstarten verloren gaat.</string>
+    <string name="title_contact_detail">Contactdetails</string>
+    <string name="title_contact_list">Contacten</string>
+    <string name="linked_with_google">Gekoppeld aan Google-contact %1$s</string>
+    <string name="not_linked_with_google">Niet gekoppeld aan een Google-contact</string>
+    <string name="force_image_redl">Afbeelding herladen</string>
+    <string name="manually_crop">Bijsnijden</string>
+    <string name="add_contact">Contact toevoegen</string>
+    <string name="sync_birthday_contact_description">Verjaardagen direct naar contact synchroniseren. LET OP: Dit staat los van agendasynchronisatie van verjaardagen.</string>
+    <string name="sync_facebook_email">"@facebook.com e-mailadressen synchroniseren"</string>
+    <string name="sync_facebook_email_description">Voegt \"gebruikersnaam@facebook.com\" e-mailadressen toe aan contacten (Facebook staat geen toegang tot andere adressen toe). Vereist voor contactkoppelingen in "Aanwezigen" bij evenementen.</string>
+    <string name="wait_syncing">Een moment geduld a.u.b. tot HaxSync klaar is met synchroniseren.</string>
+    <string name="no_contacts">Geen HaxSync-contacten gevonden!</string>
+    <string name="join_with">Koppelen</string>
+    <string name="seperate">Ontkoppelen</string>
+    <string name="workaround_warning">Let op, indien u de workaround niet installeert zal uw HaxSync-data na een herstart gewist zijn. Ga alleen verder indien u uw eigen maatregelen heeft genomen en weet wat u doet.</string>
+    <string name="workaround_description">Vanwege een bug in Android/Google Play, wordt het HaxSync-account na een herstart verwijderd. Installeer a.u.b. mijn gratis workaround-app om te voorkomen dat dit gebeurt.</string>
+    <string name="contact_manager">Contacten beheren</string>
+    <string name="contact_manager_description">Handmatig contacten synchroniseren, contactkoppelingen wijzigen en afbeeldingen bijsnijden!</string>
+    <string name="synchronizing">Synchroniseren...</string>
+    <string name="visit_fb">Bezoek HaxSync op Facebook</string>
+    <string name="visit_fb_description">Hier vindt u de laatste updates betreffende nieuwe features. Werkt iets niet naar behoren? Kijk op de Facebook-pagina, de kans bestaat dat het een bekend probleem is; de Facebook-pagina houdt u op de hoogte.</string>
+    <string name="report_issue">Meld een probleem</string>
+    <string name="report_issue_description">Ondervindt u problemen? Of heeft u een idee voor een geweldige nieuwe feature? Meld het hier! LET OP: Ik kan beoordelingen in de Play Store niet beantwoorden, dus een lage score zal mij niet helpen uw probleem te verhelpen.</string>
+    <string name="update_google_photos">Update foto\'s van Google-contacten</string>
+    <string name="update_google_photos_description">Overschrijft de foto\'s die zijn opgeslagen in uw Google-contacten met die van gekoppelde HaxSync-contacten.</string>
+    <string name="step">Stap %1$d/%2$d</string>
+    <string name="done">Klaar</string>
+    <string name="logged_in">Ingelogd.</string>
+    <string name="wizard">Wizard</string>
+    <string name="wiz_login_fb_header">Inloggen bij Facebook</string>
+    <string name="wiz_login_fb_text1">Eerst moeten we HaxSync authoriseren met Facebook.</string>
+    <string name="wiz_login_fb_text2">Hiervoor is het noodzakelijk dat u met uw Facebook-gegevens inlogt.</string>
+    <string name="wiz_settings_header">Wat zullen we synchroniseren?</string>
+    <string name="wiz_settings_text">Nu hoeven we alleen nog maar te besluiten wat we gaan synchroniseren.</string>
+    <string name="contacts_to_sync">Contacten om te synchroniseren</string>
+    <string name="wiz_settings_reminder">Herinneringen voor verjaardagen en evenementen aanmaken</string>
+    <string name="wiz_workaround_header">Workaround</string>
+    <string name="wiz_workaround_text1">Uw Android-versie bevat een bug die HaxSync negatief beïnvloedt.</string>
+    <string name="wiz_workaround_text2">Installeer a.u.b. de gratis workaround om dit te voorkomen.</string>
+    <string name="install_from_google_play">Installeren vanuit Google Play</string>
+    <string name="wiz_success_text1">Bedankt voor het instellen van HaxSync.\nUw gegevens worden nu gesynchroniseerd.</string>
+    <string name="wiz_success_text2">Als u op een gegeven moment uw instellingen wilt aanpassen of meer controle wilt over het gedrag van HaxSync, ga dan naar "Accounts" in "Instellingen" en selecteer uw HaxSync-account.</string>
+    <string name="wiz_existing_settings_header">Instellingen overslaan?</string>
+    <string name="wiz_existing_settings_text1">U heeft al enkele aangepaste HaxSync-instellingen toegepast.</string>
+    <string name="wiz_existing_settings_text2">De volgende stap kan een deel van uw persoonlijke configuratie overschrijven.</string>
+    <string name="wiz_existing_settings_skip">Overslaan</string>
+    <string name="wiz_existing_settings_display">Toch weergeven</string>
+    <string name="wiz_success_hide">Wizard verbergen uit appdrawer</string>
+    <string name="next">Volgende</string>
+    <string name="welcome">Welkom bij HaxSync</string>
+    <string name="touch_logo">Raak het HaxSync-logo aan om te beginnen</string>
+    <string name="fb_app">Facebook-applicatie</string>
+    <string name="fb_app_description">Applicatie om profielen, statusupdates and foto\'s mee te openen</string>
+</resources>

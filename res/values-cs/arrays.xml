@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="FuzzinessChoices">
+    <item>Nejvyšší - Synchronizace pouze při shodě</item>
+    <item>Vysoká</item>
+    <item>Střední</item>
+    <item>Nízká</item>
+    <item>Velmi nízká - Pozor - může synchronizovat mnoho nechtěných záznamů!</item>
+  </string-array>
+  <string-array name="FuzzinessValues">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
+      <string-array name="EventChoices">
+        <item >Zúčastním se</item>
+        <item >Možná</item>
+        <item >Nezúčastním se</item>
+        <item >Nepotrvzeno</item>
+    </string-array>
+</resources>

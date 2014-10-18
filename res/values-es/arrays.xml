@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="FuzzinessChoices">
+    <item>Ninguna - Solo sincronizar pareamientos exactos</item>
+    <item>Lígera</item>
+    <item>Mediana</item>
+    <item>Alta</item>
+    <item>Muy Alta - Puede sincronizar bastantes contactos no deseados</item>
+  </string-array>
+  <string-array name="FuzzinessValues">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
+</resources>

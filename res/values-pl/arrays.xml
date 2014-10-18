@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FuzzinessChoices">
+        <item >Brak - łącz pasujące idealnie</item>
+        <item >Niewielki</item>
+        <item >Średni</item>
+        <item >Silny</item>
+        <item >Bardzo silny - może połączyć wiele kontaktów</item>
+    </string-array>
+    <string-array name="FuzzinessValues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+    <string-array name="EventChoices">
+        <item >Wezmę udział</item>
+        <item >Może</item>
+        <item >Odrzuć</item>
+        <item >Nie odpowiadam</item>
+    </string-array>
+    <string-array name="ContactsChoices">
+        <item>Nie importuj</item>
+        <item>Tylko istniejące kontakty</item>
+        <item>Importuj wszytsko</item>
+    </string-array>
+</resources>

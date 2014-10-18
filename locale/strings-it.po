@@ -1,0 +1,268 @@
+# Translations template for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-03-15 16:21+0100\n"
+"PO-Revision-Date: 2012-03-17 12:16+0200\n"
+"Last-Translator: Mathias <simply.mots@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 2.1.6\n"
+"Generated-By: Babel 1.0dev\n"
+
+msgctxt "app_name"
+msgid "HaxSync"
+msgstr "HaxSync"
+
+msgctxt "ACCOUNT_TYPE"
+msgid "org.mots.haxsync.account"
+msgstr "org.mots.haxsync.account"
+
+msgctxt "general_settings"
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+msgctxt "general_summary"
+msgid "Sync Frequency, Resource Saving"
+msgstr "Frequenza sincronizzazione, Risparmio risorse"
+
+msgctxt "contact_settings"
+msgid "Contact Settings"
+msgstr "Impostazioni contatto"
+
+msgctxt "contact_summary"
+msgid "Contact Matching, Status Updates, Image Cropping"
+msgstr "Corrispondenza contatto, Aggiornamenti stato, Ritaglio immagine"
+
+msgctxt "calendar_settings"
+msgid "Calendar Settings"
+msgstr "Impostazioni calendario"
+
+msgctxt "calendar_summary"
+msgid "Event Sync"
+msgstr "Sincronizzazione evento"
+
+msgctxt "sync_events"
+msgid "Sync Events"
+msgstr "Sincronizza eventi"
+
+msgctxt "sync_events_summary"
+msgid "Will sync events you're attending to a separate Calendar if checked."
+msgstr ""
+"Se selezionata sincronizzerà gli eventi a cui partecipi in un calendario "
+"separato."
+
+msgctxt "contact_sync"
+msgid "Contact Sync"
+msgstr "Sincronizzazione contatto"
+
+msgctxt "phone_only"
+msgid "Existing contacts only"
+msgstr "Solo contatti esistenti"
+
+msgctxt "phone_only_summary"
+msgid "Only sync contacts already on device."
+msgstr "Sincronizza solo i contatti già presenti sul telefono."
+
+msgctxt "fuzziness"
+msgid "Fuzziness"
+msgstr "Approssimazione"
+
+msgctxt "fuzziness_summary"
+msgid "Useful for contacts where Facebook and Phone names differ."
+msgstr ""
+"Utile per i contatti dove il nome su Facebook e quello nel telefono sono "
+"diversi."
+
+msgctxt "additional_friends"
+msgid "Additional friends to sync"
+msgstr "Amici aggiuntivi da sincronizzare"
+
+msgctxt "additional_friends_summary"
+msgid ""
+"These friends will be synced even if they don't match any contacts on "
+"your device."
+msgstr ""
+"Questi amici verranno sincronizzati anche se non corrispondono a nessun "
+"contatto sul telefono."
+
+msgctxt "status_updates"
+msgid "Status Updates"
+msgstr "Aggiornamenti stato"
+
+msgctxt "sync_status"
+msgid "Sync Status Updates"
+msgstr "Sincronizza gli aggiornamenti di stato"
+
+msgctxt "status_new"
+msgid "Use new API"
+msgstr "Usa nuove API"
+
+msgctxt "status_new_summary"
+msgid "Strongly recommended. Needs Android 4.0.3 or higher."
+msgstr "Caldamente raccomandata. Necessita di Android 4.0.3 o superiore."
+
+msgctxt "contact_images"
+msgid "Contact Images"
+msgstr "Immagini contatto"
+
+msgctxt "crop_square"
+msgid "Crop to square"
+msgstr "Ritaglia al centro"
+
+msgctxt "crop_square_summary"
+msgid "Uses face detection to determine the optimal area."
+msgstr "Usa il riconoscimento facciale per determinare l'area ottimale."
+
+msgctxt "sync_options"
+msgid "Sync Options"
+msgstr "Opzioni sincronizzazione"
+
+msgctxt "sync_freq"
+msgid "Sync Frequency"
+msgstr "Frequenza sincronizzazione"
+
+msgctxt "resource_saving"
+msgid "Resource Saving"
+msgstr "Risparmio risorse"
+
+msgctxt "wifi_only_summary"
+msgid "Only sync when in a Wi-Fi network."
+msgstr "Sincronizza solo quando connesso a rete Wi-Fi."
+
+msgctxt "wifi_only"
+msgid "Wi-Fi only"
+msgstr "Solo Wi-Fi"
+
+msgctxt "getting_friends"
+msgid "Getting Facebook Friends..."
+msgstr "Analisi amici Facebook in corso..."
+
+msgctxt "sync_every"
+msgid "Sync Every"
+msgstr "Sincronizza ogni"
+
+msgctxt "days"
+msgid "Days"
+msgstr "Giorni"
+
+msgctxt "hours"
+msgid "Hours"
+msgstr "Ore"
+
+msgctxt "minutes"
+msgid "Minutes"
+msgstr "Minuti"
+
+msgctxt "birthday"
+msgid "%1$s's Birthday"
+msgstr "Compleanno di %1$s"
+
+msgctxt "preferences"
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgctxt "about"
+msgid "About"
+msgstr "Informazioni"
+
+msgctxt "birthday_cal"
+msgid "HaxSync Birthdays"
+msgstr "Compleanni HaxSync"
+
+msgctxt "event_cal"
+msgid "HaxSync Events"
+msgstr "Eventi HaxSync"
+
+msgctxt "event_sync"
+msgid "Event Sync"
+msgstr "Sincronizzazione evento"
+
+msgctxt "birthday_sync"
+msgid "Birthday Sync"
+msgstr "Sincronizzazione compleanno"
+
+msgctxt "calendar_color"
+msgid "Calendar Color"
+msgstr "Colore calendario"
+
+msgctxt "sync_birthdays"
+msgid "Sync Birthdays"
+msgstr "Sincronizzazione compleanni"
+
+msgctxt "sync_self"
+msgid "Sync \"Me\" Contact"
+msgstr "Sincronizza contatto \"Io\""
+
+msgctxt "sync_self_summary"
+msgid "Syncs your own Facebook-info with Android's \"Me\" Contact."
+msgstr ""
+"Sincronizza le tue informazioni Facebook con il contatto \"Io\" di "
+"Android."
+
+msgctxt "timeline_all"
+msgid "Show full timeline"
+msgstr "Mostra diario completo"
+
+msgctxt "timeline_all_summary"
+msgid "Shows the contact's full timeline, also containing posts from other users."
+msgstr ""
+"Mostra il diario completo del contatto, compresi i messaggi degli altri "
+"utenti."
+
+msgctxt "thanks"
+msgid ""
+"&lt;b&gt;&lt;a href=http://www.c99.org/&gt;Sam "
+"Steele&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Sync Adapter sample code, "
+"licensed under the Apache Public License&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;&lt;a href=http://www.apache.org/&gt;Apache Software "
+"Foundation&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;commons.lang, licensed"
+" under the Apache Public License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://originell.org/&gt;Luis Nell&lt;/a&gt;&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;\"Comment\" and \"Like\" icons&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Sergey Margaritov & Daniel Nilsson&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;ColorPickerPreference, licensed under the Apache Public "
+"License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Daniel Pfeller&lt;/b&gt;&lt;br "
+"/&gt; &lt;i&gt;Testing&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://mpranj.limun.org/&gt;Mihael Pranjić&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Testing, Croatian Translation&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Marin Bilić&lt;/b&gt;&lt;br /&gt; &lt;i&gt;Croatian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Lukács Attila&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Hungarian Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Yasin "
+"Yıldırım&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Turkish "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Per Kristian "
+"Sørpebøl&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Norwegian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Pablo Alcayaga&lt;/b&gt;&lt;br"
+" /&gt;&lt;i&gt;Spanish Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Adam "
+"Salac&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Czech Translation&lt;/i&gt;&lt;br "
+"/&gt; &lt;b&gt;malycomix&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Italian "
+"Translation&lt;/i&gt;&lt;br /&gt;"
+msgstr ""
+
+msgctxt "google_backup"
+msgid "Backup Contact links"
+msgstr "Salva link contatti"
+
+msgctxt "google_backup_summary"
+msgid ""
+"Adds HTCData tags to your Google Contacts. Useful when switching "
+"roms/wiping your phone."
+msgstr ""
+"Aggiunge i valori HTCData ai tuoi contatti Google. Utile quando cambi rom o "
+"ripristini il cellulare."
+
+msgctxt "google_backup_warning"
+msgid ""
+"This will overwrite the \"Notes\"-Field in your Google Contacts. Are you "
+"sure you want to continue?"
+msgstr ""
+"Questo sovrascriverà il campo \"Note\" nei tuoi contatti Google. Vuoi "
+"continuare?"

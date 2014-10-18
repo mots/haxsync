@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="org.mots.haxsync.activities.Preferences$GeneralFragment"
+            android:title="@string/general_settings"
+            android:icon="@drawable/ic_menu_preferences"
+            android:summary="@string/general_summary" />
+
+    <header android:fragment="org.mots.haxsync.activities.Preferences$ContactFragment"
+            android:title="@string/contact_settings"
+            android:icon="@drawable/ic_menu_allfriends"
+            android:summary="@string/contact_summary" />
+
+    <header android:fragment="org.mots.haxsync.activities.Preferences$CalendarFragment"
+            android:title="@string/calendar_settings"
+            android:icon="@drawable/ic_menu_my_calendar"
+            android:summary="@string/calendar_summary" />
+
+</preference-headers>

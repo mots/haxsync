@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string-array name="FuzzinessChoices">
+    <item>Ingen - bare synkroniser nøyaktige treff</item>
+    <item>svak</item>
+    <item>Middels</item>
+    <item>Sterk</item>
+    <item>Veldig sterk - Kan synkronisere mange uønskede kontakter</item>
+  </string-array>
+  <string-array name="FuzzinessValues">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
+</resources>

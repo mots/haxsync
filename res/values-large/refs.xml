@@ -1,0 +1,3 @@
+<resources>
+    <item type="layout" name="activity_contact_list">@layout/activity_contact_twopane</item>
+</resources>

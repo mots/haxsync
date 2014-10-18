@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/calendar_settings" >
+
+    <PreferenceCategory android:title="@string/event_sync" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="sync_events"
+            android:title="@string/sync_events" />
+        <org.droidparts.preference.MultiSelectListPreference            
+            android:entries="@array/EventChoices"
+            android:dependency="sync_events"
+            android:entryValues="@array/EventValues"
+            android:key="event_status"
+            android:summary="@string/event_status_description"
+            android:title="@string/event_status"
+            android:defaultValue="attending|unsure" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="0xffff2525"
+            android:dependency="sync_events"
+            android:key="event_color"
+            android:title="@string/calendar_color"
+            hexValue = "true" />
+        <CheckBoxPreference android:title="@string/reminders" android:key="event_reminders" android:dependency="sync_events"/>
+        <PreferenceScreen
+            android:dependency="event_reminders"
+            android:title="@string/reminder_time" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="org.mots.haxsync.activities.EventReminder"
+                android:targetPackage="org.mots.haxsync" />
+        </PreferenceScreen>    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/birthday_sync" >
+        <CheckBoxPreference
+            android:key="sync_birthdays"
+            android:title="@string/sync_birthdays" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="0xffff2525"
+            android:dependency="sync_birthdays"
+            android:key="birthday_color"
+            android:title="@string/calendar_color"
+            hexValue = "true" />
+        <CheckBoxPreference android:key="phone_only_cal" android:summary="@string/phone_only_cal_summary" android:title="@string/phone_only_cal"/>
+        <CheckBoxPreference android:key="birthday_reminders" android:title="@string/reminders" android:dependency="sync_birthdays"/>
+                <PreferenceScreen
+            android:dependency="birthday_reminders"
+            android:title="@string/reminder_time" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="org.mots.haxsync.activities.BirthdayReminder"
+                android:targetPackage="org.mots.haxsync" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

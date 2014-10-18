@@ -1,0 +1,264 @@
+# Translations template for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-03-15 16:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.0dev\n"
+
+msgctxt "app_name"
+msgid "HaxSync"
+msgstr "HaxSync"
+
+msgctxt "ACCOUNT_TYPE"
+msgid "org.mots.haxsync.account"
+msgstr "org.mots.haxsync.account"
+
+msgctxt "general_settings"
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+msgctxt "general_summary"
+msgid "Sync Frequency, Resource Saving"
+msgstr "Senkronizasyon Sıklığı, Kaynak Tasarrufu"
+
+msgctxt "contact_settings"
+msgid "Contact Settings"
+msgstr "Kişi Ayarları"
+
+msgctxt "contact_summary"
+msgid "Contact Matching, Status Updates, Image Cropping"
+msgstr "Kişi Eşleştirme, Durum Güncellemeleri, Resim Kırpma"
+
+msgctxt "calendar_settings"
+msgid "Calendar Settings"
+msgstr "Takvim Ayarları"
+
+msgctxt "calendar_summary"
+msgid "Event Sync"
+msgstr "Etkinlik Senkronizasyonu"
+
+msgctxt "sync_events"
+msgid "Sync Events"
+msgstr "Etkinlikleri Senkronize Et"
+
+msgctxt "sync_events_summary"
+msgid "Will sync events you're attending to a separate Calendar if checked."
+msgstr ""
+"Seçili ise, katılacağınız etkinlikleri ayrı bir Takvim ile senkronize "
+"eder."
+
+msgctxt "contact_sync"
+msgid "Contact Sync"
+msgstr "Kişi Senkronizasyonu"
+
+msgctxt "phone_only"
+msgid "Existing contacts only"
+msgstr "Sadece mevcut kişiler"
+
+msgctxt "phone_only_summary"
+msgid "Only sync contacts already on device."
+msgstr "Sadece bu cihazdaa olan kişileri senkronize et."
+
+msgctxt "fuzziness"
+msgid "Fuzziness"
+msgstr "Karmaşıklık"
+
+msgctxt "fuzziness_summary"
+msgid "Useful for contacts where Facebook and Phone names differ."
+msgstr "Facebook ve Telefondaki isimleri farklı olan kişileri bulmak için."
+
+msgctxt "additional_friends"
+msgid "Additional friends to sync"
+msgstr "Senkronize edilecek diğer arkadaşlar"
+
+msgctxt "additional_friends_summary"
+msgid ""
+"These friends will be synced even if they don't match any contacts on "
+"your device."
+msgstr ""
+"Bu arkadaşlar, cihazınızdaki hiçbir kişi ile eşleşmeseler bile senkronize"
+" edilecekler."
+
+msgctxt "status_updates"
+msgid "Status Updates"
+msgstr "Durum Güncellemeleri"
+
+msgctxt "sync_status"
+msgid "Sync Status Updates"
+msgstr "Durum Güncellemelerini Senkronize Et"
+
+msgctxt "status_new"
+msgid "Use new API"
+msgstr "Yeni API'yi kullan"
+
+msgctxt "status_new_summary"
+msgid "Strongly recommended. Needs Android 4.0.3 or higher."
+msgstr "Şiddetle tavsiye edilir. Android 4.0.3 ve üzerine ihtiyaç duyar."
+
+msgctxt "contact_images"
+msgid "Contact Images"
+msgstr "Kişi Resimleri"
+
+msgctxt "crop_square"
+msgid "Crop to square"
+msgstr "Kare olarak kırp"
+
+msgctxt "crop_square_summary"
+msgid "Uses face detection to determine the optimal area."
+msgstr "En uygun alanı belirlemek için yüz tanıma kullanır."
+
+msgctxt "sync_options"
+msgid "Sync Options"
+msgstr "Senkronizasyon Seçenekleri"
+
+msgctxt "sync_freq"
+msgid "Sync Frequency"
+msgstr "Senkronizasyon Sıklığı"
+
+msgctxt "resource_saving"
+msgid "Resource Saving"
+msgstr "Kaynak Tasarrufu"
+
+msgctxt "wifi_only_summary"
+msgid "Only sync when in a Wi-Fi network."
+msgstr "Sadece bir Wi-Fi ağına bağlıyken senkronize et."
+
+msgctxt "wifi_only"
+msgid "Wi-Fi only"
+msgstr "Sadece Wi-Fi"
+
+msgctxt "getting_friends"
+msgid "Getting Facebook Friends..."
+msgstr "Facebook Arkadaşları Alınıyor..."
+
+msgctxt "sync_every"
+msgid "Sync Every"
+msgstr "Her"
+
+msgctxt "days"
+msgid "Days"
+msgstr "Gün"
+
+msgctxt "hours"
+msgid "Hours"
+msgstr "Saat"
+
+msgctxt "minutes"
+msgid "Minutes"
+msgstr "Dakika"
+
+msgctxt "birthday"
+msgid "%1$s's Birthday"
+msgstr "%1$sadlı kişinin Doğumgünü"
+
+msgctxt "preferences"
+msgid "Preferences"
+msgstr "Ayarlar"
+
+msgctxt "about"
+msgid "About"
+msgstr "Hakkında"
+
+msgctxt "birthday_cal"
+msgid "HaxSync Birthdays"
+msgstr "HaxSync Doğumgünleri"
+
+msgctxt "event_cal"
+msgid "HaxSync Events"
+msgstr "HaxSync Etkinlikleri"
+
+msgctxt "event_sync"
+msgid "Event Sync"
+msgstr "Etkinlik Senkronizasyonu"
+
+msgctxt "birthday_sync"
+msgid "Birthday Sync"
+msgstr "Doğumgünü Senkronizasyonu"
+
+msgctxt "calendar_color"
+msgid "Calendar Color"
+msgstr "Takvim Rengi"
+
+msgctxt "sync_birthdays"
+msgid "Sync Birthdays"
+msgstr "Doğumgünlerini Senkronize Et"
+
+msgctxt "sync_self"
+msgid "Sync \"Me\" Contact"
+msgstr "\"Ben\" Kişisini Senkronize Et"
+
+msgctxt "sync_self_summary"
+msgid "Syncs your own Facebook-info with Android's \"Me\" Contact."
+msgstr "Kendi Facebook bilgilerinizi Android'in \"Ben\" kişisiyle senkronize eder."
+
+msgctxt "timeline_all"
+msgid "Show full timeline"
+msgstr "Tam zaman çizgisini göster"
+
+msgctxt "timeline_all_summary"
+msgid "Shows the contact's full timeline, also containing posts from other users."
+msgstr ""
+"Kişinin tam zaman çizgisini, diğer kullanıcıların gönderileriyle birlikte"
+" göster."
+
+msgctxt "thanks"
+msgid ""
+"&lt;b&gt;&lt;a href=http://www.c99.org/&gt;Sam "
+"Steele&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Sync Adapter sample code, "
+"licensed under the Apache Public License&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;&lt;a href=http://www.apache.org/&gt;Apache Software "
+"Foundation&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;commons.lang, licensed"
+" under the Apache Public License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://originell.org/&gt;Luis Nell&lt;/a&gt;&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;\"Comment\" and \"Like\" icons&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Sergey Margaritov & Daniel Nilsson&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;ColorPickerPreference, licensed under the Apache Public "
+"License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Daniel Pfeller&lt;/b&gt;&lt;br "
+"/&gt; &lt;i&gt;Testing&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://mpranj.limun.org/&gt;Mihael Pranjić&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Testing, Croatian Translation&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Marin Bilić&lt;/b&gt;&lt;br /&gt; &lt;i&gt;Croatian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Lukács Attila&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Hungarian Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Yasin "
+"Yıldırım&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Turkish "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Per Kristian "
+"Sørpebøl&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Norwegian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Pablo Alcayaga&lt;/b&gt;&lt;br"
+" /&gt;&lt;i&gt;Spanish Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Adam "
+"Salac&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Czech Translation&lt;/i&gt;&lt;br "
+"/&gt; &lt;b&gt;malycomix&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Italian "
+"Translation&lt;/i&gt;&lt;br /&gt;"
+msgstr ""
+
+msgctxt "google_backup"
+msgid "Backup Contact links"
+msgstr "Kişi bağlantılarını yedekle"
+
+msgctxt "google_backup_summary"
+msgid ""
+"Adds HTCData tags to your Google Contacts. Useful when switching "
+"roms/wiping your phone."
+msgstr ""
+"Google Kişilerinize HTCData etiketlerini ekler. Rom "
+"değiştirdiğinizde/telefonunuzu sildiğinizde faydalıdır."
+
+msgctxt "google_backup_warning"
+msgid ""
+"This will overwrite the \"Notes\"-Field in your Google Contacts. Are you "
+"sure you want to continue?"
+msgstr ""
+"Bu işlem Google Kişilerinizin \"Notlar\" alanını silip yeniden yazacak. "
+"Devam etmek istediğinize emin misiniz?"
+

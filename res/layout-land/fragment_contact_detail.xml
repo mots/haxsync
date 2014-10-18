@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ViewSwitcher
+        android:id="@+id/picSwitcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/strut"
+        android:inAnimation="@android:anim/fade_in"
+        android:minHeight="150dp"
+        android:outAnimation="@android:anim/fade_out" >
+
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minHeight="100dp"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </ViewSwitcher>
+    
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="false" />
+
+    <ListView
+        android:id="@+id/joinedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/strut" >
+
+    </ListView>
+    
+            <LinearLayout
+                android:id="@id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/strut"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/joinButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/join_with" />
+
+                <Button
+                    android:id="@+id/seperate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/seperate" />
+            </LinearLayout>
+
+</RelativeLayout>

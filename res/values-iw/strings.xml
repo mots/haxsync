@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">HaxSync</string>
+    <string name="ACCOUNT_TYPE">org.mots.haxsync.account</string>
+    <string name="general_settings">הגדרות כלליות</string>
+    <string name="general_summary">תדירות סנכון וחיסכון במשאבים</string>
+    <string name="contact_settings">הגדרות אנשי קשר</string>
+    <string name="contact_summary">התאמת אנשי קשר, עדכוני סטטוס, חיתוך תמונה</string>
+    <string name="calendar_settings">הגדרות לוח שנה</string>
+    <string name="calendar_summary">סנכרון אירועים</string>
+    <string name="sync_events">סנכרן אירועים</string>
+    <string name="sync_events_summary">יסנכרן אירועים בהם בחרת להשתתף ללוח שנה נפרד אם נבחר.</string>
+    <string name="contact_sync">סנכרון אנשי קשר</string>
+    <string name="phone_only">אנשי קשר קיימים בלבד</string>
+    <string name="phone_only_summary">סנכרן רק אנשי קשר שנמצאים כבר בזיכרון המכשיר.</string>
+    <string name="fuzziness">חוסר בהירות</string>
+    <string name="fuzziness_summary">שימושי למקרים בהם קיימים שמות שונים בפייסבוק ובאנשי הקשר.</string>
+    <string name="additional_friends">חברים נוספים לסנכרון</string>
+    <string name="additional_friends_summary">החברים הללו יסונכרנו גם אם הם לא מתאימים לאף איש קשר במכשיר.</string>
+    <string name="status_updates">עדכוני סטטוס</string>
+ 	<string name="sync_status">סנכרן עדכוני סטטוס</string>
+ 	<string name="status_new">השתמש ב-API חדש</string>
+ 	<string name="status_new_summary">מומלץ מאוד. דורש גרסת אנדרואיד של 4.0.3 לכל הפחות.</string>
+ 	<string name="contact_images">תמונות אנשי קשר</string>
+ 	<string name="crop_square">חתוך לריבוע</string>
+ 	<string name="crop_square_summary">עושה שימוש בזיהוי פנים על מנת לחתוך בצורה מיטבית.</string>
+ 	<string name="sync_options">אפשרויות סנכרון</string>
+ 	<string name="sync_freq">תדירות סנכרון</string>
+ 	<string name="resource_saving">חיסכון במשאבים</string>
+ 	<string name="wifi_only_summary">סנכרן רק בעת חיבור לאינטרנט אלחוטי.</string>
+ 	<string name="wifi_only">Wi-Fi בלבד</string>
+ 	<string name="charging_only">סנכרן רק כשהמכשיר בטעינה</string>
+ 	<string name="charging_only_summary">סנכרון יבוצע רק אם המכשיר נמצא בטעינה.</string>
+ 	<string name="getting_friends">מושך רשימת חברים מפייסבוק...</string>
+ 	<string name="sync_every">סנכרן כל</string>
+ 	<string name="days">ימים</string>
+ 	<string name="hours">שעות</string>
+ 	<string name="minutes">דקות</string>
+ 	<string name="birthday">יום ההולדת של%1$s</string>
+ 	<string name="preferences">הגדרות</string>
+ 	<string name="about">אודות</string>
+ 	<string name="birthday_cal">HaxSync ימי הולדת</string>
+ 	<string name="event_cal">HaxSync אירועים</string>
+ 	<string name="event_sync">סנכרון אירועים</string>
+ 	<string name="birthday_sync">סנכרון ימי הולדת</string>
+ 	<string name="calendar_color">צבע לוח שנה</string>
+ 	<string name="sync_birthdays">סנכרן ימי הולדת</string>
+ 	<string name="sync_self">סנכרן את עצמי</string>
+ 	<string name="sync_self_summary">סנכרון המידע מפייסבוק עבור איש הקשר של בעל המכשיר.</string>
+ 	<string name="timeline_all">הצג ציר זמן מלא</string>
+ 	<string name="timeline_all_summary">מציג את ציר הזמן המלא עבור איש הקשר, כולל פוסטים של משתמשים אחרים.</string>
+ 	<string name="thanks"><![CDATA[ 	    <b><a href="http://www.c99.org/">Sam Steele</a></b><br /><i>Sync Adapter sample code, licensed under the Apache Public License</i><br />
+ 	    <b><a href="http://www.apache.org/">Apache Software Foundation</a></b><br /><i>commons.lang, licensed under the Apache Public License</i><br />
+ 	    <b><a href="http://originell.org/">Luis Nell</a></b><br /><i>אייקונים עבור תגובות ולייק</i><br />
+ 	    <b>Sergey Margaritov & Daniel Nilsson</b><br /><i>ColorPickerPreference, תחת רישיון של Apache Public License</i><br />
+ 	    <b>Daniel Pfeller</b><br /> <i>בדיקות</i><br />
+ 	    <b><a href="http://mpranj.limun.org/">Mihael Pranjić</b><br /><i>בדיקות, תרגום קרואטי</i><br />
+ 	    <b>Marin Bilić</b><br /> <i>תרגום קרואטי</i><br />
+ 	    <b>Lukács Attila</b><br /><i>תרגום הונגרי</i><br />
+ 	    <b>Yasin Yıldırım</b><br /><i>תרגום טורקי</i><br />
+ 	    <b>Per Kristian Sørpebøl</b><br /><i>תרגום נורווגי</i><br />
+ 	    <b>Pablo Alcayaga</b><br /><i>תרגום ספרדי</i><br />
+ 	    <b>Adam Salač</b><br /><i>תרגום צ\'כי</i><br />
+	    <b>João Rocha</b><br /><i>תרגום פורטוגזי</i><br />
+	    <b>Giang Nguyễn Hoàng</b><br /><i>תרגום וייטנמי</i><br />
+ 	    <b>Luigi Apicella</b><br /><i>תרגום איטלקי</i><br />
+		<b>Pasha Kagan</b><br /><i>תרגום עברי</i><br />
+ 	     	    ]]>
+ 	</string>
+ 	<string name="google_backup">גבה קישורי אנשי קשר</string>
+ 	<string name="google_backup_summary">אפשרות זו מוסיפה תגיות מסוג HTCData לאנשי הקשר שלך. מידע זה הינו שימושי בעת החלפת רומים או איפוס המכשיר שלך.</string>
+ 	<string name="google_backup_warning">דבר זה ישכתב את שדה ההערות בכל אנשי הקשר המסונכרנים. האם ברצונך להמשיך?</string>
+ 	<string name="phone_only_cal">אנשי קשר בטלפון בלבד</string>
+ 	<string name="phone_only_cal_summary">צור רישומי ימי הולדת רק עבור אנשי קשר ששמורים בטלפון.</string>
+ 	<string name="face_detect">השתמש בזיהוי פנים</string>
+ 	<string name="force_dl">כפה הורדה מחדש</string>
+ 	<string name="force_dl_summary">כופה הורדה מחדש של כל התמונות עבור כל אנשי הקשר בסנכרון הבא.</string>
+ 	<string name="sync_location">סנכרן כתובות</string>
+ 	<string name="google_select">אנא בחר חשבון גוגל</string>
+ 	<string name="token_notification_title">תשובה לא תקינה</string>
+ 	<string name="token_notification_ticker">תשובה לא תקינה מפייסבוק</string>
+ 	<string name="token_notification_description">לחץ על מנת להעניק הרשאות</string>
+ 	<string name="event_status">אירועים לסנכרון</string>
+    <string name="event_status_description">סנכרן אירועים בעלי סטטוס הגעה ספציפי.</string>     
+ 	
+</resources>

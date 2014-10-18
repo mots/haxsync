@@ -1,0 +1,59 @@
+# Translations template for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-03-15 16:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.0dev\n"
+
+msgctxt "FuzzinessChoices:0"
+msgid "None - Only sync exact matches"
+msgstr "Nejvyšší - Synchronizace pouze při shodě"
+
+msgctxt "FuzzinessChoices:1"
+msgid "Slight"
+msgstr "Vysoká"
+
+msgctxt "FuzzinessChoices:2"
+msgid "Medium"
+msgstr "Střední"
+
+msgctxt "FuzzinessChoices:3"
+msgid "Strong"
+msgstr "Nízká"
+
+msgctxt "FuzzinessChoices:4"
+msgid "Very Strong - May sync lots of unwanted contacts"
+msgstr "Velmi nízká - Pozor - může synchronizovat mnoho nechtěných záznamů!"
+
+msgctxt "FuzzinessValues:0"
+msgid "0"
+msgstr "0"
+
+msgctxt "FuzzinessValues:1"
+msgid "1"
+msgstr "1"
+
+msgctxt "FuzzinessValues:2"
+msgid "2"
+msgstr "2"
+
+msgctxt "FuzzinessValues:3"
+msgid "3"
+msgstr "3"
+
+msgctxt "FuzzinessValues:4"
+msgid "4"
+msgstr "4"
+

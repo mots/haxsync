@@ -1,0 +1,254 @@
+# Translations template for PROJECT.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2012-03-15 16:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+"Generated-By: Babel 1.0dev\n"
+
+msgctxt "app_name"
+msgid "HaxSync"
+msgstr ""
+
+msgctxt "ACCOUNT_TYPE"
+msgid "org.mots.haxsync.account"
+msgstr ""
+
+msgctxt "general_settings"
+msgid "General Settings"
+msgstr ""
+
+msgctxt "general_summary"
+msgid "Sync Frequency, Resource Saving"
+msgstr ""
+
+msgctxt "contact_settings"
+msgid "Contact Settings"
+msgstr ""
+
+msgctxt "contact_summary"
+msgid "Contact Matching, Status Updates, Image Cropping"
+msgstr ""
+
+msgctxt "calendar_settings"
+msgid "Calendar Settings"
+msgstr ""
+
+msgctxt "calendar_summary"
+msgid "Event Sync"
+msgstr ""
+
+msgctxt "sync_events"
+msgid "Sync Events"
+msgstr ""
+
+msgctxt "sync_events_summary"
+msgid "Will sync events you're attending to a separate Calendar if checked."
+msgstr ""
+
+msgctxt "contact_sync"
+msgid "Contact Sync"
+msgstr ""
+
+msgctxt "phone_only"
+msgid "Existing contacts only"
+msgstr ""
+
+msgctxt "phone_only_summary"
+msgid "Only sync contacts already on device."
+msgstr ""
+
+msgctxt "fuzziness"
+msgid "Fuzziness"
+msgstr ""
+
+msgctxt "fuzziness_summary"
+msgid "Useful for contacts where Facebook and Phone names differ."
+msgstr ""
+
+msgctxt "additional_friends"
+msgid "Additional friends to sync"
+msgstr ""
+
+msgctxt "additional_friends_summary"
+msgid ""
+"These friends will be synced even if they don't match any contacts on "
+"your device."
+msgstr ""
+
+msgctxt "status_updates"
+msgid "Status Updates"
+msgstr ""
+
+msgctxt "sync_status"
+msgid "Sync Status Updates"
+msgstr ""
+
+msgctxt "status_new"
+msgid "Use new API"
+msgstr ""
+
+msgctxt "status_new_summary"
+msgid "Strongly recommended. Needs Android 4.0.3 or higher."
+msgstr ""
+
+msgctxt "contact_images"
+msgid "Contact Images"
+msgstr ""
+
+msgctxt "crop_square"
+msgid "Crop to square"
+msgstr ""
+
+msgctxt "crop_square_summary"
+msgid "Uses face detection to determine the optimal area."
+msgstr ""
+
+msgctxt "sync_options"
+msgid "Sync Options"
+msgstr ""
+
+msgctxt "sync_freq"
+msgid "Sync Frequency"
+msgstr ""
+
+msgctxt "resource_saving"
+msgid "Resource Saving"
+msgstr ""
+
+msgctxt "wifi_only_summary"
+msgid "Only sync when in a Wi-Fi network."
+msgstr ""
+
+msgctxt "wifi_only"
+msgid "Wi-Fi only"
+msgstr ""
+
+msgctxt "getting_friends"
+msgid "Getting Facebook Friends..."
+msgstr ""
+
+msgctxt "sync_every"
+msgid "Sync Every"
+msgstr ""
+
+msgctxt "days"
+msgid "Days"
+msgstr ""
+
+msgctxt "hours"
+msgid "Hours"
+msgstr ""
+
+msgctxt "minutes"
+msgid "Minutes"
+msgstr ""
+
+msgctxt "birthday"
+msgid "%1$s's Birthday"
+msgstr ""
+
+msgctxt "preferences"
+msgid "Preferences"
+msgstr ""
+
+msgctxt "about"
+msgid "About"
+msgstr ""
+
+msgctxt "birthday_cal"
+msgid "HaxSync Birthdays"
+msgstr ""
+
+msgctxt "event_cal"
+msgid "HaxSync Events"
+msgstr ""
+
+msgctxt "event_sync"
+msgid "Event Sync"
+msgstr ""
+
+msgctxt "birthday_sync"
+msgid "Birthday Sync"
+msgstr ""
+
+msgctxt "calendar_color"
+msgid "Calendar Color"
+msgstr ""
+
+msgctxt "sync_birthdays"
+msgid "Sync Birthdays"
+msgstr ""
+
+msgctxt "sync_self"
+msgid "Sync \"Me\" Contact"
+msgstr ""
+
+msgctxt "sync_self_summary"
+msgid "Syncs your own Facebook-info with Android's \"Me\" Contact."
+msgstr ""
+
+msgctxt "timeline_all"
+msgid "Show full timeline"
+msgstr ""
+
+msgctxt "timeline_all_summary"
+msgid "Shows the contact's full timeline, also containing posts from other users."
+msgstr ""
+
+msgctxt "thanks"
+msgid ""
+"&lt;b&gt;&lt;a href=http://www.c99.org/&gt;Sam "
+"Steele&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Sync Adapter sample code, "
+"licensed under the Apache Public License&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;&lt;a href=http://www.apache.org/&gt;Apache Software "
+"Foundation&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;&lt;i&gt;commons.lang, licensed"
+" under the Apache Public License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://originell.org/&gt;Luis Nell&lt;/a&gt;&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;\"Comment\" and \"Like\" icons&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Sergey Margaritov & Daniel Nilsson&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;ColorPickerPreference, licensed under the Apache Public "
+"License&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Daniel Pfeller&lt;/b&gt;&lt;br "
+"/&gt; &lt;i&gt;Testing&lt;/i&gt;&lt;br /&gt; &lt;b&gt;&lt;a "
+"href=http://mpranj.limun.org/&gt;Mihael Pranjić&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Testing, Croatian Translation&lt;/i&gt;&lt;br /&gt; "
+"&lt;b&gt;Marin Bilić&lt;/b&gt;&lt;br /&gt; &lt;i&gt;Croatian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Lukács Attila&lt;/b&gt;&lt;br "
+"/&gt;&lt;i&gt;Hungarian Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Yasin "
+"Yıldırım&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Turkish "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Per Kristian "
+"Sørpebøl&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Norwegian "
+"Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Pablo Alcayaga&lt;/b&gt;&lt;br"
+" /&gt;&lt;i&gt;Spanish Translation&lt;/i&gt;&lt;br /&gt; &lt;b&gt;Adam "
+"Salac&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Czech Translation&lt;/i&gt;&lt;br "
+"/&gt; &lt;b&gt;malycomix&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Italian "
+"Translation&lt;/i&gt;&lt;br /&gt;"
+msgstr ""
+
+msgctxt "google_backup"
+msgid "Backup Contact links"
+msgstr ""
+
+msgctxt "google_backup_summary"
+msgid ""
+"Adds HTCData tags to your Google Contacts. Useful when switching "
+"roms/wiping your phone."
+msgstr ""
+
+msgctxt "google_backup_warning"
+msgid ""
+"This will overwrite the \"Notes\"-Field in your Google Contacts. Are you "
+"sure you want to continue?"
+msgstr ""
